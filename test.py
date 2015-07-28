@@ -15,14 +15,15 @@ r = requests.get(url)
 #print r.encoding
 
 count = 0    
-fid = open(os.path.join(__location__, 'output.log'), "w")
+fid = codecs.open(os.path.join(__location__, 'output.log'), "w","utf-8-sig" )
         
 for line in (''.join(r.text)).splitlines():
     if '''<div class="media">''' in line:
-#        print re.findall("(?P<url>https?://[^\s]+)", line), "\n\n"
-        count = count + 1
-        print count
-        fid.write( str(line) + "\n") 
+        url_list = re.findall('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', str(line))
+        if  len(url_list) != 0:
+            for url in url_list:
+                if "media" in url:
+                    fid.write(str(url) + "\n") 
 fid.close()        
 print "number of images on page:", count
 
@@ -37,9 +38,5 @@ print response.status_code
 del response
 
 
-#Test url finder:
-text = '''                        <div class="media"><img src="http://38.media.tumblr.com/2d50d4f036f4c787699b4a5f2ddaf2e6/tumblr_n8ze5zBEHw1r5pe9fo1_500.gif" alt="" /></div> '''
-urls = re.findall('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', text)
-print urls
 
 
