@@ -1,0 +1,1685 @@
+
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=75ff60d174af47d7ea271d82d4fe1151"></script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+                                         
+        .                                 .o8       oooo               
+      .o8                                "888       `888               
+    .o888oo oooo  oooo  ooo. .oo.  .oo.   888oooo.   888  oooo d8b     
+      888   `888  `888  `888P"Y88bP"Y88b  d88' `88b  888  `888""8P     
+      888    888   888   888   888   888  888   888  888   888        
+      888 .  888   888   888   888   888  888   888  888   888    .o. 
+      "888"  `V88V"V8P' o888o o888o o888o `Y8bod8P' o888o d888b   Y8P
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+    <!-- DEFAULT VARIABLES -->
+    <meta name="color:Background" content="#3b627e" />
+    
+    <meta name="font:Title" content="Arial" />
+    <meta name="font:Body" content="Arial" />
+    <meta name="font:Accent" content="Lucida Sans" />
+    
+    <meta name="if:Show People I Follow" content="1" />
+    <meta name="if:Show Tags" content="1" />
+    <meta name="if:Show Album Art on Audio Posts" content="1" />
+    <meta name="if:Enable Jump Pagination" content="0" />
+    
+    <meta name="text:Disqus Shortname" content="" />
+    
+    <meta name="image:Header" content="" />
+    <meta name="image:Background" content="" />
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Titled</title>
+    
+    <style type="text/css">figure {margin: 0;}</style>
+<link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_724fea60003b_128.png" />
+    <link rel="apple-touch-icon" href="http://33.media.tumblr.com/avatar_724fea60003b_128.png"/>
+    <link rel="alternate" type="application/rss+xml" href="http://otarsface.tumblr.com/rss" />
+    <style type="text/css">
+        body {
+            background: #05380c url('http://assets.tumblr.com/images/x.gif?v=1') top left fixed repeat;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+        }
+        
+        .clear {
+            clear: both;
+            height: 0px;
+            overflow: hidden;
+        }
+        
+        a img {
+            border: none;
+        }
+        
+        #wrapper {
+            width: 845px;
+            margin: 0 auto;
+        }
+        
+            #wrapper #title {
+                margin: 30px 0;
+                color: #fff;
+                font-size: 50px;
+                font-weight: bold;
+                font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+                text-shadow: 1px 3px 5px rgba(0,0,0, 0.5);
+                letter-spacing: -1px;
+            }
+            
+                #wrapper #title a {
+                    color: #fff;
+                    text-decoration: none;
+                }
+            
+            #wrapper #content {
+                width: 520px;
+                float: left;
+            }
+            
+                #wrapper #content .post {
+                    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+                    background: #fff;
+                    padding: 10px;
+                    position: relative;
+                }
+                    
+                    #wrapper #content .post .media {
+                        text-align: center;
+                        margin-bottom: 10px;
+                    }
+                    
+                    #wrapper #content .post .quotebg {
+                        font-family: georgia, serif;
+                        font-size: 150px;
+                        color: #05380c;
+                        opacity: 0.2;
+                        filter: alpha(opacity=20);
+                        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+                        position: absolute;
+                        top: 70px;
+                        left: 10px;
+                    }
+                    
+                    #wrapper #content .post .quote {
+                        color: #05380c;
+                        font-weight: bold;
+                        padding: 20px 20px 5px 20px;
+                    }
+                    
+                    #wrapper #content .post .quote.short {
+                        font-size: 33px;
+                        line-height: 35px;
+                    }
+                    
+                    #wrapper #content .post .quote.medium {
+                        font-size: 25px;
+                        line-height: 28px;
+                    }
+                    
+                    #wrapper #content .post .quote.long {
+                        font-size: 18px;
+                        line-height: 22px;
+                    }
+                                        
+                        #wrapper #content .post .quote_source *:first-child {
+                            margin-top: 0px;
+                        }
+                        
+                        #wrapper #content .post .quote_source *:last-child {
+                            margin-bottom: 0px;
+                        }
+                        
+                        #wrapper #content .post .quote *:first-child {
+                            margin-top: 0px;
+                        }
+                        
+                        #wrapper #content .post .quote *:last-child {
+                            margin-bottom: 0px;
+                        }
+                        
+                    #wrapper #content .post .copy {
+                        color: #6e7173;
+                        padding: 10px;
+                        font-size: 13px;
+                        line-height: 15px;
+                    }
+                        
+                        #wrapper #content .post .copy a {
+                            color: #6e7173;
+                            text-decoration: underline;
+                        }
+                        
+                        #wrapper #content .post .copy p {
+                            margin: 10px 0 0 0;
+                            padding: 0;
+                        }
+                        
+                        #wrapper #content .post .copy pre {
+                            margin: 10px 0px 10px 0px;
+                            padding: 10px;
+                            background-color: #e6e6e6;
+                            font: normal 11px Courier, monospace;
+                            overflow: auto;
+                        }
+                        
+                        #wrapper #content .post .copy > p:first-child {
+                            margin-top: 0;
+                        }
+                        
+                        #wrapper #content .post .copy img {
+                            max-width: 100%;
+                        }
+                    
+                    #wrapper #content .post .audio {
+                        background: #eaeaea;
+                        float: left;
+                        padding: 7px;
+                        margin-bottom: 10px;
+                        -moz-border-radius: 4px;
+                        -webkit-border-radius: 4px;
+                        border-radius: 4px;
+                    }
+                                                        
+                        #wrapper #content .post .audio .player {
+                            float: left;
+                        }
+                        
+                            #wrapper #content .post .audio .player .audio_player embed {
+                                border: 1px solid #c8c8c8;
+                            }
+                        
+                        #wrapper #content .post .audio .meta {
+                            padding: 8px 13px;
+                            height: 13px;
+                            float: left;
+                            color: #666;
+                            font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+                            font-size: 11px;
+                            text-transform: lowercase;
+                        }
+                        
+                            #wrapper #content .post .audio .meta a {
+                                color: #666;
+                                text-decoration: none;
+                            }
+                    
+                    #wrapper #content .post .album_art {
+                        text-align: center;
+                    }
+                    
+                    #wrapper #content .post .question {
+                        color: #494949;
+                        font-size: 16px;
+                        font-weight: bold;
+                        background: #f1f1f1;
+                        -moz-border-radius: 8px;
+                        -webkit-border-radius: 8px;
+                        border-radius: 8px;
+                        margin: 0 0 15px 0;
+                        padding: 15px 20px;
+                        position: relative;
+                    }
+                    
+                        #wrapper #content .post .question .nipple {
+                            width: 13px;
+                            height: 7px;
+                            background: #f1f1f1 url('http://static.tumblr.com/vr9xgox/PDjnf8t10/ask-mask.png');
+                            position: absolute;
+                            bottom: -7px;
+                            left: 30px;
+                        }
+                        
+                    #wrapper #content .post .asker_container {
+                        margin: 0 0 20px 24px;
+                    }
+                    
+                        #wrapper #content .post .asker_container img {
+                            margin: 0 12px -7px 0;
+                        }
+                        
+                        #wrapper #content .post .asker_container a.asker {
+                            color: ;
+                        }
+                    
+                    #wrapper #content .post .title {
+                        color: #494949;
+                        font-size: 16px;
+                        font-weight: bold;
+                        padding: 10px 10px 0 10px;
+                    }
+                    
+                    #wrapper #content .post img {
+                      max-width: 500px;
+                    }
+                                        
+                    #wrapper #content .post .chat {
+                        background-color: #fff;
+                        border-left: 5px solid #dedddd;
+                        margin: 10px 10px 0 10px;
+                        font-size: 14px;
+                    }
+                                        
+                        #wrapper #content .post .chat .lines {
+                            margin-left: 1px;
+                        }
+                        
+                            #wrapper #content .post .chat .lines .line {
+                                background-color: #eaeaea;
+                                color: #494949;
+                                margin-bottom: 1px;
+                                padding: 3px 5px;
+                            }
+                            
+                            #wrapper #content .post .chat .lines .line.even {
+                                background-color: #dedddd;
+                            }
+                        
+                        #wrapper #content .post .link {
+                            margin: 4px 0 2px 0;
+                            font-size: 16px;
+                            line-height: 25px;
+                        }
+                            
+                            #wrapper #content .post .link a {
+                                background-color: #05380c;
+                                color: #fff;
+                                padding: 5px 7px;
+                                -moz-border-radius: 4px;
+                                -webkit-border-radius: 4px;
+                                border-radius: 4px;
+                            }
+                            
+                            #wrapper #content .post .link a:hover {
+                                opacity: 0.9;
+                                filter: alpha(opacity=90);
+                                -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+                            }
+                    
+                    #wrapper #content .post .footer {
+                        background: #eaeaea;
+                        -moz-border-radius: 4px;
+                        -webkit-border-radius: 4px;
+                        border-radius: 4px;
+                        font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+                        font-size: 11px;
+                        color: #666;
+                        padding: 5px 10px;
+                        margin-top: 10px;
+                    }
+                        
+                        #wrapper #content .post .footer.for_permalink:hover {
+                            opacity: 0.9;
+                            filter: alpha(opacity=90);
+                            -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+                        }
+                        
+                        #wrapper #content .post .footer .date {
+                            width: 67%;
+                            float: left;
+                            color: #666;
+                        }
+                        
+                        #wrapper #content .post .footer .notes {
+                            width: 33%;
+                            float: right;
+                            text-align: right;
+                            color: #666;
+                        }
+                            
+                            #wrapper #content .post .footer .notes a {
+                                color: #666;
+                            }
+                            
+                            #wrapper #content .post .footer .tags a {
+                                color: #4a4a51;
+                                text-decoration: underline;
+                            }
+                            
+                                #wrapper #content .post .footer .tags .tag-commas:last-child {
+                                    display: none;
+                                }
+                            
+                            #wrapper #content .post .footer.with_source_url .tags {
+                                max-width: 330px;
+                                float: left;
+                            }
+                            
+                            #wrapper #content .post .footer.with_source_url .source_url {
+                                float: right;
+                                max-width: 160px;
+                                overflow: hidden;
+                                white-space: nowrap;
+                                
+                            }
+                            
+                                #wrapper #content .post .footer.with_source_url .source_url img {
+                                    vertical-align: top;
+                                    -moz-opacity: 0.5;
+                                    opacity: 0.5;
+                                }
+                                
+                                #wrapper #content .post .footer.with_source_url .source_url:hover img {
+                                    -moz-opacity: 0.7;
+                                    opacity: 0.7;
+                                }
+                        
+                        #wrapper #content .post a {
+                            color: #6e7173;
+                            text-decoration: none;
+                        }
+                        
+                            #wrapper #content .post .copy blockquote {
+                                margin: 10px 0px 10px 10px;
+                                padding-left: 15px;
+                                border-left: solid 4px #dcdcdc;
+                            }
+                            
+                                #wrapper #content .post .copy blockquote blockquote {
+                                    border-left: solid 4px #cccccc;
+                                }
+                                
+                                    #wrapper #content .post .copy blockquote blockquote blockquote {
+                                        border-left: solid 4px #bcbcbc;
+                                    }
+                                    
+                                        #wrapper #content .post .copy blockquote blockquote blockquote blockquote {
+                                            border-left: solid 4px #acacac;
+                                        }
+                                        
+                                            #wrapper #content .post .copy blockquote blockquote blockquote blockquote blockquote {
+                                                border-left: solid 4px #9c9c9c;
+                                            }
+                                            
+                                                #wrapper #content .post .copy blockquote blockquote blockquote blockquote blockquote blockquote {
+                                                    border-left: solid 4px #8c8c8c;
+                                                }
+                        
+                        #wrapper #content .bottom {
+                            background: url('http://static.tumblr.com/vr9xgox/TDAnf8t3n/shadow-post.png') top center no-repeat transparent;
+                            width: 513px;
+                            height: 40px;
+                            margin: 0 auto;
+                        }
+                        
+                        #wrapper #content #navigation {
+                            text-align: right;
+                            padding-bottom: 35px;
+                            text-transform: lowercase;
+                        }
+                        
+                            #wrapper #content #navigation a {
+                                background-color: #fff;
+                                color: #05380c;
+                                padding: 5px 10px;
+                                text-decoration: none;
+                                margin-left: 25px;
+                            }
+                            
+                            #wrapper #content #navigation a:hover {
+                                opacity: 0.9;
+                                filter: alpha(opacity=90);
+                                -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+                            }
+                            
+                        #wrapper #content #navigation.jump_pagination {}
+                            
+                            #wrapper #content #navigation.jump_pagination a {
+                                margin: 0 0 0 4px;
+                            }
+                            
+                            #wrapper #content #navigation.jump_pagination .current_page {
+                                color: #fff;
+                                background-color: rgba(255,255,255, 0.1);
+                                border: 2px solid #fff;
+                                padding: 3px 8px;
+                                margin: 0 0 0 4px;
+                                cursor: default;
+                            }
+                            
+                            #wrapper #content #navigation.jump_pagination .jump_page {}
+                            
+                            #wrapper #content .post .notecontainer {
+                                background: #eaeaea;
+                                -moz-border-radius: 4px;
+                                -webkit-border-radius: 4px;
+                                border-radius: 4px;
+                                font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+                                font-size: 11px;
+                                color: #666;
+                                margin-top: 10px;
+                                margin-bottom: -10px;
+                            }
+                            
+                                    #wrapper #content .post .notecontainer a {
+                                        color: #666;
+                                        text-decoration: underline;
+                                    }
+                                    
+                                    #wrapper #content .post .notecontainer ol.notes {
+                                        padding: 0px 0 10px 0;
+                                        list-style-type: none;
+                                        font-size: 11px;
+                                    }
+                                    
+                                        #wrapper #content .post .notecontainer ol.notes li.note {
+                                            padding: 10px 10px 0 10px;
+                                        }
+                                        
+                                            #wrapper #content .post .notecontainer ol.notes li.note img.avatar {
+                                                vertical-align: -4px;
+                                                margin-right: 10px;
+                                                width: 16px;
+                                                height: 16px;
+                                            }
+                                            
+                                            #wrapper #content .post .notecontainer ol.notes li.note span.action {
+                                                font-weight: normal;
+                                            }
+                                            
+                                            #wrapper #content .post .notecontainer ol.notes li.note .answer_content {
+                                                font-weight: normal;
+                                            }
+                                            
+                                            #wrapper #content .post .notecontainer ol.notes li.note blockquote {
+                                                border-left: 2px solid #666;
+                                                padding: 4px 10px;
+                                                margin: 10px 0px 0px 25px;
+                                            }
+                                            
+                                                #wrapper #content .post .notecontainer ol.notes li.note blockquote a {
+                                                    text-decoration: none;
+                                                }
+                
+                #wrapper #content #searchresults {
+                    color: #fff;
+                    margin: 0 0 15px 0;
+                    text-shadow: 1px 3px 5px rgba(0,0,0, 0.5);
+                    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+                    font-size: 20px;
+                }
+                
+                    #wrapper #content #searchresults .search_query {
+                        font-weight: bold;
+                    }
+                    
+                    #wrapper #content #searchresults .search_query:before {
+                        content:'“';
+                    }
+                    
+                    #wrapper #content #searchresults .search_query:after {
+                        content:'”';
+                    }
+            
+            #wrapper #sidebar {
+                width: 250px;
+                float: right;
+                color: #05380c;
+                font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif
+            }
+            
+                #wrapper #sidebar a {
+                    color: #05380c;
+                }
+                
+                #wrapper #sidebar #top {
+                    background: #fff;
+                    padding: 0 20px;
+                    
+                    -webkit-border-top-left-radius: 10px;
+                    -webkit-border-top-right-radius: 10px;
+                    -moz-border-radius-topleft: 10px;
+                    -moz-border-radius-topright: 10px;
+                    border-top-left-radius: 10px;
+                    border-top-right-radius: 10px;
+                }
+                
+                    #wrapper #sidebar #top #avatar {
+                        width: 146px;
+                        height: 146px;
+                        padding: 8px 0 0 9px;
+                        background: url('http://static.tumblr.com/vr9xgox/mi9nf8t4z/avatar-bg.png') top left no-repeat transparent;
+                        position: relative;
+                        top: -24px;
+                        left: -5px;
+                    }
+                    
+                    #wrapper #sidebar #top #pages {
+                        margin-bottom: 15px;
+                        font-size: 12px;
+                    }
+                    
+                        #wrapper #sidebar #top #pages.ask_and_submit {
+                            display: none;
+                            display: block;
+                            display: block;
+                        }
+                    
+                        #wrapper #sidebar #top #pages a.page {
+                            display: block;
+                            float: left;
+                            background-color: #05380c;
+                            color: #fff;
+                            padding: 4px 5px;
+                            margin: 0 5px 5px 0;
+                            -webkit-border-radius: 3px;
+                            -moz-border-radius: 3px;
+                            border-radius: 3px;
+                        }
+                        
+                        #wrapper #sidebar #top #pages a.page:last-child {
+                            margin-right: 0;
+                        }
+                        
+                        #wrapper #sidebar #top #pages a.page:hover {
+                            opacity: 0.9;
+                            filter: alpha(opacity=90);
+                            -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+                        }
+                        
+                    #wrapper #sidebar #top #description {
+                        font-size: 11px;
+                        position: relative;
+                        top: -18px;
+                    }
+                    
+                        #wrapper #sidebar #top #description a {
+                            color: #05380c;
+                            text-decoration: underline;
+                        }
+                    
+                    #wrapper #sidebar #top #search {
+                        background: #fff;
+                        border: 1px solid #05380c;
+                        
+                        -moz-border-radius: 4px;
+                        -webkit-border-radius: 4px;
+                        border-radius: 4px;
+                    }
+                    
+                    #wrapper #sidebar #top #search-scope {
+                        padding-top: 5px;
+                        font-size: 11px;
+                        text-align: center;
+                    }
+                    
+                        #wrapper #sidebar #top #search-scope input,
+                        #wrapper #sidebar #top #search-scope label {
+                            cursor: pointer;
+                        }
+                        
+                        #wrapper #sidebar #top #search form {
+                            margin: 0;
+                        }
+                            
+                            #wrapper #sidebar #top #search form .query {
+                                padding: 5px;
+                                border: none;
+                                background: transparent;
+                                outline: none;
+                                width: 125px;
+                                float: left;
+                                color: #05380c;
+                            }
+                            
+                            #wrapper #sidebar #top #search form .submit {
+                                background: #05380c;
+                                color: #fff;
+                                border: none;
+                                padding: 5px 7px;
+                                margin: 3px 3px 2px 0;
+                                float: right;
+                                -moz-border-radius: 3px;
+                                -webkit-border-radius: 3px;
+                                border-radius: 3px;
+                                cursor: pointer;
+                            }
+                            
+                            #wrapper #sidebar #top #search form .submit:hover {
+                                opacity: 0.9;
+                                filter: alpha(opacity=90);
+                                -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+                            }
+                    
+                    #wrapper #sidebar #top .heading {
+                        color: #fff;
+                        font-family: helvetica, arial, sans-serif;
+                        font-size: 17px;
+                        margin-top: 20px;
+                        padding: 10px;
+                        background-color: #05380c;
+                        -webkit-border-top-left-radius: 4px;
+                        -webkit-border-top-right-radius: 4px;
+                        -moz-border-radius-topleft: 4px;
+                        -moz-border-radius-topright: 4px;
+                        border-top-left-radius: 4px;
+                        border-top-right-radius: 4px;
+                    }
+                    
+                    #wrapper #sidebar #top a .heading {
+                        color: #fff;
+                        text-decoration: none;
+                    }
+                    
+                    #wrapper #sidebar #top .heading#followontumblr {
+                        background: url('http://static.tumblr.com/vr9xgox/xSxnf8t6x/sidebar-follow-on-en_us.png') center left no-repeat #05380c;
+                        text-indent: -9999px;
+                        -moz-border-radius: 4px;
+                        -webkit-border-radius: 4px;
+                        border-radius: 4px;
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    }
+                    
+                    #wrapper #sidebar #top .heading#followontumblr:hover,
+                    #wrapper #sidebar #top .heading#twitter:hover {
+                        opacity: 0.9;
+                        filter: alpha(opacity=90);
+                        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+                    }
+                    
+                    #wrapper #sidebar #top .heading#twitter {
+                        background: url('http://static.tumblr.com/vr9xgox/0zgnf8tbl/sidebar-twitter.png') right center no-repeat #05380c;
+                    }
+                    
+                    #wrapper #sidebar #top .heading#following {
+                        background: url('http://static.tumblr.com/vr9xgox/lKbnf8tc5/sidebar-following.png') right center no-repeat #05380c;
+                    }
+                    
+                    #wrapper #sidebar #top .content {
+                        margin-top: 2px;
+                        padding: 7px 10px;
+                        background: #eaeaea;
+                        color: #666;
+                        font-size: 11px;
+                        overflow: hidden;
+                    }
+                    
+                        #wrapper #sidebar #top a {
+                            text-decoration: none;
+                        }
+                    
+                        #wrapper #sidebar #top #following-avatars.content {
+                            padding: 4px;
+                        }
+                    
+                                #wrapper #sidebar #top #following-avatars.content a img {
+                                    margin: 5px;
+                                }
+                                
+                        #wrapper #sidebar #top #buttons {
+                            padding: 20px 0 0 0;
+                        }
+                        
+                            #wrapper #sidebar #top #buttons .button {
+                                width: 35%;
+                                height: 21px;
+                                float: left;
+                                background: left center no-repeat transparent;
+                                padding: 2px 0 0 30px;
+                                font-size: 14px;
+                            }
+                            
+                                #wrapper #sidebar #top #buttons a {
+                                    color: #05380c;
+                                    text-decoration: none;
+                                }
+                            
+                                #wrapper #sidebar #top #buttons div {
+                                    padding-bottom: 10px;
+                                }
+                            
+                            #wrapper #sidebar #top #buttons .button#button-rss {
+                                background-image: url('http://static.tumblr.com/vr9xgox/VlPnf8tt8/button-rss.png');
+                                text-transform: capitalize;
+                            }
+                            
+                            #wrapper #sidebar #top #buttons .button#button-random {
+                                background-image: url('http://static.tumblr.com/vr9xgox/vRHnf8tv4/button-random.png');
+                            }
+                            
+                            #wrapper #sidebar #top #buttons .button#button-archive {
+                                background-image: url('http://static.tumblr.com/vr9xgox/VT4nf8tvk/button-archive.png');
+                            }
+                            
+                            #wrapper #sidebar #top #buttons .button#button-mobile {
+                                background-image: url('http://static.tumblr.com/vr9xgox/Vd7nf8tw0/button-mobile.png');
+                            }
+                
+                    #wrapper #sidebar #bottom {
+                        background: url('http://static.tumblr.com/vr9xgox/wySnf8twm/sidebar-bottom.png') top center no-repeat transparent;
+                        width: 250px;
+                        height: 25px;
+                    }
+                    
+                    #wrapper #sidebar #copyright {
+                        text-align: center;
+                        color: #fff;
+                        font-size: 12px;
+                        margin-bottom: 10px;
+                    }
+                    
+                        #wrapper #sidebar #copyright a {
+                            color: #fff;
+                            margin-left: 15px;
+                        }
+    
+    </style>
+    <!--[if lt IE 7.]>
+        <style type="text/css">
+            #wrapper #sidebar #bottom {
+                background: transparent;
+            }
+            
+            #wrapper #sidebar #top #avatar {
+                background: none;
+            }
+            
+            #wrapper #sidebar #top #avatar img {
+                border: 5px solid #f1f1f1;
+            }
+            
+            #wrapper #sidebar #top .heading#followontumblr {
+                background-image: none;
+                text-indent: 0;
+            }
+        
+            #wrapper #sidebar #top .heading#twitter {
+                background-image: none;
+            }
+        
+            #wrapper #sidebar #top .heading#following {
+                background-image: none;
+            }
+
+            #wrapper #content .post .audio .player {
+                float: none;
+            }
+            
+            #wrapper #content .post .audio .meta {
+                display: none;
+                float: none;
+            }
+        </style>
+    <![endif]-->
+    
+    <!--[if lt IE 8.]>
+        <style type="text/css">
+            #wrapper #content .bottom {
+                background: transparent;
+            }
+            
+            #wrapper #content .post .footer {
+                background: transparent;
+                color: #000;
+            }
+            
+            #wrapper #content .post .audio {
+                float: none;
+                background: transparent;
+            }
+            
+            #wrapper #content .post .notecontainer .notes {
+                padding: 0;
+                margin: 0;
+            }
+        </style>
+    <![endif]-->
+    <style type="text/css"></style>
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=otarsface" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=93bb152582dbb408afc826f52e6676b4"></script>
+
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="Titled" /><meta property="og:url" content="http://otarsface.tumblr.com/?og=1" /><meta property="og:description" content="" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://33.media.tumblr.com/avatar_724fea60003b_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=otarsface" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=otarsface" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="otarsface" /><meta name="twitter:description" content=" " /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=otarsface&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=otarsface&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=otarsface&amp;referrer=twitter-cards" />
+
+<!-- GOOGLE CAROUSEL --><script type="application/ld+json">{"@type":"ItemList","url":"http:\/\/otarsface.tumblr.com\/page\/40","itemListElement":[{"@type":"ListItem","position":1,"url":"http:\/\/otarsface.tumblr.com\/post\/92347248573"},{"@type":"ListItem","position":2,"url":"http:\/\/otarsface.tumblr.com\/post\/92347213923"},{"@type":"ListItem","position":3,"url":"http:\/\/otarsface.tumblr.com\/post\/92347143198"},{"@type":"ListItem","position":4,"url":"http:\/\/otarsface.tumblr.com\/post\/92347081413\/13-unordered-collection-of-sandor-clegane-gifs"},{"@type":"ListItem","position":5,"url":"http:\/\/otarsface.tumblr.com\/post\/92347073603"},{"@type":"ListItem","position":6,"url":"http:\/\/otarsface.tumblr.com\/post\/92346955518\/tastefullyoffensive-popdisaster"},{"@type":"ListItem","position":7,"url":"http:\/\/otarsface.tumblr.com\/post\/92293390758"},{"@type":"ListItem","position":8,"url":"http:\/\/otarsface.tumblr.com\/post\/92293222753\/mathvevo-hippo-dont-care-hippo-got-things-to"},{"@type":"ListItem","position":9,"url":"http:\/\/otarsface.tumblr.com\/post\/92179648898\/thepotatoledger"},{"@type":"ListItem","position":10,"url":"http:\/\/otarsface.tumblr.com\/post\/92099864978"}],"@context":"http:\/\/schema.org"}</script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="title">
+            <a href="/">
+                
+                Titled
+            </a>
+        </div>
+        
+        <div id="content">
+            
+            
+            
+            
+                <div class="post">
+                    
+                    
+                        <div class="media"><img src="http://38.media.tumblr.com/2d50d4f036f4c787699b4a5f2ddaf2e6/tumblr_n8ze5zBEHw1r5pe9fo1_500.gif" alt="" /></div>
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        <a href="http://otarsface.tumblr.com/post/92347248573">
+                            <div class="footer for_permalink">
+                                <div class="date">
+                                    
+                                        Reblogged 1 year ago from timetravlin13 
+                                    
+                                    
+                                    
+                                </div>
+                                <div class="notes">315 notes </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    
+                    
+                    <div class="footer " style="
+                        display:none;
+                        
+                        
+                    ">
+                        
+                        
+                        
+                        
+                        <div class="clear"></div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                </div>
+                <div class="bottom"></div>
+            
+                <div class="post">
+                    
+                    
+                        <div class="media"><img src="http://33.media.tumblr.com/8816d8b003005a1eb70af7d51c16f9a2/tumblr_n279pbc79J1rf1esyo1_400.gif" alt="" /></div>
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        <a href="http://otarsface.tumblr.com/post/92347213923">
+                            <div class="footer for_permalink">
+                                <div class="date">
+                                    
+                                        Reblogged 1 year ago from charliedayquotes 
+                                    
+                                    
+                                    
+                                </div>
+                                <div class="notes">4,163 notes </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    
+                    
+                    <div class="footer " style="
+                        display:none;
+                        
+                        
+                    ">
+                        
+                        
+                        
+                        
+                        <div class="clear"></div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                </div>
+                <div class="bottom"></div>
+            
+                <div class="post">
+                    
+                    
+                        <div class="media"><a href="http://cockbarf.tumblr.com"><img src="http://38.media.tumblr.com/e8469fdaa6b9d8ef679c2f4dcbdb17df/tumblr_n2cqfq7Egq1rqd0kpo1_400.gif" alt="" /></a></div>
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        <a href="http://otarsface.tumblr.com/post/92347143198">
+                            <div class="footer for_permalink">
+                                <div class="date">
+                                    
+                                        Reblogged 1 year ago from cockbarff-deactivated20150220 
+                                    
+                                    
+                                    
+                                </div>
+                                <div class="notes">59,927 notes </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    
+                    
+                    <div class="footer " style="
+                        display:none;
+                        
+                        
+                    ">
+                        
+                        
+                        
+                        
+                        <div class="clear"></div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                </div>
+                <div class="bottom"></div>
+            
+                <div class="post">
+                    
+                    
+                    
+                    
+                        <div class="media"><div id="photoset_92347081413" class="html_photoset">    <iframe id="photoset_iframe_92347081413" class="photoset" scrolling="no" frameborder="0" height="500" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://otarsface.tumblr.com/post/92347081413/photoset_iframe/otarsface/tumblr_n3o27069Wv1rnmfk9/500/false" name="photoset_iframe_92347081413"></iframe></div></div>
+                        <div class="copy"><blockquote>
+<p><sub><a href="http://queensansastark.tumblr.com/tagged/random-sandor-gifs">[13/?]</a><span>&nbsp;Unordered collection of Sandor Clegane gifs</span></sub></p>
+</blockquote></div>
+                    
+                    
+                    
+                    
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        <a href="http://otarsface.tumblr.com/post/92347081413/13-unordered-collection-of-sandor-clegane-gifs">
+                            <div class="footer for_permalink">
+                                <div class="date">
+                                    
+                                        Reblogged 1 year ago from queensansastarkhasmoved-deactiv 
+                                    
+                                    
+                                    
+                                </div>
+                                <div class="notes">1,403 notes </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    
+                    
+                    <div class="footer " style="
+                        display:none;
+                        
+                        
+                    ">
+                        
+                        
+                        
+                        
+                        <div class="clear"></div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                </div>
+                <div class="bottom"></div>
+            
+                <div class="post">
+                    
+                    
+                        <div class="media"><img src="http://40.media.tumblr.com/d0323ecce4f60e455f366db044c19cad/tumblr_n46et24dzi1qdmh9zo1_500.jpg" alt="" /></div>
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        <a href="http://otarsface.tumblr.com/post/92347073603">
+                            <div class="footer for_permalink">
+                                <div class="date">
+                                    
+                                        Reblogged 1 year ago from tastefullyoffensive (<span style="text-transform:lowercase;">Originally from luoti-sade</span>)
+                                    
+                                    
+                                    
+                                </div>
+                                <div class="notes">16,114 notes </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    
+                    
+                    <div class="footer with_source_url" style="
+                        display:none;
+                        
+                        display:block;
+                    ">
+                        
+                        
+                        
+                            <a href="http://luoti-sade.tumblr.com/post/82990240850/so-a-friend-had-this-image-of-joffrey-as-her" class="source_url">
+                                Source:
+                                
+                                luoti-sade
+                            </a>
+                        
+                        
+                        <div class="clear"></div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                </div>
+                <div class="bottom"></div>
+            
+                <div class="post">
+                    
+                    
+                        <div class="media"><img src="http://41.media.tumblr.com/667a0cc6e2573ee0116becb8b1b2a906/tumblr_n90tyzjYJ71qewacoo1_500.jpg" alt="tastefullyoffensive:
+
+[popdisaster]
+" /></div>
+                        <div class="copy"><p><a class="tumblr_blog" href="http://tumblr.tastefullyoffensive.com/post/92345261013/popdisaster">tastefullyoffensive</a>:</p>
+<blockquote>
+<p>[<a href="http://www.reddit.com/user/popdisaster00">popdisaster</a>]</p>
+</blockquote></div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        <a href="http://otarsface.tumblr.com/post/92346955518/tastefullyoffensive-popdisaster">
+                            <div class="footer for_permalink">
+                                <div class="date">
+                                    
+                                        Reblogged 1 year ago from tastefullyoffensive 
+                                    
+                                    
+                                    
+                                </div>
+                                <div class="notes">7,743 notes </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    
+                    
+                    <div class="footer " style="
+                        display:none;
+                        
+                        
+                    ">
+                        
+                        
+                        
+                        
+                        <div class="clear"></div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                </div>
+                <div class="bottom"></div>
+            
+                <div class="post">
+                    
+                    
+                    
+                    
+                        <div class="media"><div id="photoset_92293390758" class="html_photoset">    <iframe id="photoset_iframe_92293390758" class="photoset" scrolling="no" frameborder="0" height="710" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://otarsface.tumblr.com/post/92293390758/photoset_iframe/otarsface/tumblr_mlzfh1aqrF1qafcve/500/false" name="photoset_iframe_92293390758"></iframe></div></div>
+                        
+                    
+                    
+                    
+                    
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        <a href="http://otarsface.tumblr.com/post/92293390758">
+                            <div class="footer for_permalink">
+                                <div class="date">
+                                    
+                                        Reblogged 1 year ago from heyfunniest (<span style="text-transform:lowercase;">Originally from markbrendanawicz</span>)
+                                    
+                                    
+                                    
+                                </div>
+                                <div class="notes">126,919 notes </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    
+                    
+                    <div class="footer with_source_url" style="
+                        display:none;
+                        
+                        display:block;
+                    ">
+                        
+                        
+                        
+                            <a href="http://markbrendanawicz.tumblr.com/post/49119529568" class="source_url">
+                                Source:
+                                
+                                markbrendanawicz
+                            </a>
+                        
+                        
+                        <div class="clear"></div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                </div>
+                <div class="bottom"></div>
+            
+                <div class="post">
+                    
+                    
+                        <div class="media"><a href="http://tumblr.4gifs.com"><img src="http://38.media.tumblr.com/eb20dbc0a20600ca5444ef72f903f228/tumblr_n14cvtzu6Y1qdlh1io1_400.gif" alt="mathvevo:
+
+Hippo don&rsquo;t care, Hippo got things to do, Hippo got places to be
+" /></a></div>
+                        <div class="copy"><p><a class="tumblr_blog" href="http://mathvevo.tumblr.com/post/90219421596/hippo-dont-care-hippo-got-things-to-do-hippo">mathvevo</a>:</p>
+<blockquote>
+<p>Hippo don&rsquo;t care, Hippo got things to do, Hippo got places to be</p>
+</blockquote></div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        <a href="http://otarsface.tumblr.com/post/92293222753/mathvevo-hippo-dont-care-hippo-got-things-to">
+                            <div class="footer for_permalink">
+                                <div class="date">
+                                    
+                                        Reblogged 1 year ago from heyfunniest (<span style="text-transform:lowercase;">Originally from 4gifs</span>)
+                                    
+                                    
+                                    
+                                </div>
+                                <div class="notes">314,880 notes </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    
+                    
+                    <div class="footer with_source_url" style="
+                        display:none;
+                        
+                        display:block;
+                    ">
+                        
+                        
+                        
+                            <a href="http://ForGIFs.com" class="source_url">
+                                Source:
+                                
+                                ForGIFs.com
+                            </a>
+                        
+                        
+                        <div class="clear"></div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                </div>
+                <div class="bottom"></div>
+            
+                <div class="post">
+                    
+                    
+                    
+                    
+                        <div class="media"><div id="photoset_92179648898" class="html_photoset">    <iframe id="photoset_iframe_92179648898" class="photoset" scrolling="no" frameborder="0" height="830" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://otarsface.tumblr.com/post/92179648898/photoset_iframe/otarsface/tumblr_n8xcg44jXy1qewaco/500/false" name="photoset_iframe_92179648898"></iframe></div></div>
+                        <div class="copy"><p>[<a href="http://thepotatoledger.com">thepotatoledger</a>]</p></div>
+                    
+                    
+                    
+                    
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        <a href="http://otarsface.tumblr.com/post/92179648898/thepotatoledger">
+                            <div class="footer for_permalink">
+                                <div class="date">
+                                    
+                                        Reblogged 1 year ago from tastefullyoffensive 
+                                    
+                                    
+                                    
+                                </div>
+                                <div class="notes">8,037 notes </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    
+                    
+                    <div class="footer " style="
+                        display:none;
+                        
+                        
+                    ">
+                        
+                        
+                        
+                        
+                        <div class="clear"></div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                </div>
+                <div class="bottom"></div>
+            
+                <div class="post">
+                    
+                    
+                    
+                    
+                        <div class="media"><div id="photoset_92099864978" class="html_photoset">    <iframe id="photoset_iframe_92099864978" class="photoset" scrolling="no" frameborder="0" height="575" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://2222222.tumblr.com/post/92099864978/photoset_iframe/otarsface/tumblr_mz9kh99I2U1s2tywq/500/false" name="photoset_iframe_92099864978"></iframe></div></div>
+                        
+                    
+                    
+                    
+                    
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        <a href="http://otarsface.tumblr.com/post/92099864978">
+                            <div class="footer for_permalink">
+                                <div class="date">
+                                    
+                                        Reblogged 1 year ago from meagkennepohl (<span style="text-transform:lowercase;">Originally from star-earth-moon</span>)
+                                    
+                                    
+                                    
+                                </div>
+                                <div class="notes">5,922 notes </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    
+                    
+                    <div class="footer with_source_url" style="
+                        display:none;
+                        
+                        display:block;
+                    ">
+                        
+                        
+                        
+                            <a href="http://star-earth-moon.tumblr.com/post/73033645139" class="source_url">
+                                Source:
+                                
+                                star-earth-moon
+                            </a>
+                        
+                        
+                        <div class="clear"></div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                </div>
+                <div class="bottom"></div>
+            
+            
+            
+                <div id="navigation" >
+                    <a href="/page/39">&larr; Previous</a>
+                    
+                    
+                    
+                    <a href="/page/41">Next page &rarr;</a>
+                </div>
+            
+            
+        </div>
+        
+        <div id="sidebar">
+            <div id="top">
+                <div id="avatar"><a href="/"><img src="http://33.media.tumblr.com/avatar_724fea60003b_128.png" /></a></div>
+                <div id="description"></div>
+                
+                <div id="pages" class="ask_and_submit">
+                    <a href="/ask" class="page">Ask me anything</a>
+                    <a href="/submit" class="page">Submit</a>
+                    <div class="clear"></div>
+                </div>
+                
+                
+                
+                <div id="search">
+                    <form action="/search" method="get" id="search-form">
+                        <input type="hidden" name="t" value="otarsface" />
+                        <input type="hidden" name="scope" value="all_of_tumblr" />
+                        <input type="text" name="q" class="query" value="" />
+                        <input type="submit" value="Search" class="submit" />
+                        <div class="clear"></div>
+                    </form>
+                </div>
+                <div id="search-scope">
+                    <input type="radio" id="search-scope-me" name="scope" checked onclick="document.getElementById('search-form').action='/search'" /> <label for="search-scope-me" onclick="document.getElementById('search-form').action='/search'">My blog</label>
+                    <input type="radio" id="search-scope-all" name="scope" onclick="document.getElementById('search-form').action='http://www.tumblr.com/search'" /> <label for="search-scope-all" onclick="document.getElementById('search-form').action='http://www.tumblr.com/search'">All of Tumblr</label>
+                </div>
+                
+                <a href="http://www.tumblr.com/follow/otarsface"><div class="heading" id="followontumblr">Follow on Tumblr</div></a>
+                
+                
+                
+                
+                    
+                        <div class="heading" id="following">Following</div>
+                        <div class="content" id="following-avatars">
+                            <a href="http://dundermifflingifs.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_4cd88337c2cc_40.png" /></a><a href="http://tumblr.tastefullyoffensive.com/"><img src="http://38.media.tumblr.com/avatar_995e761509e7_40.png" /></a><a href="http://shydaydream.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_20e6b6a33d2a_40.png" /></a><a href="http://meagkennepohl.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_37265349dad8_40.png" /></a><a href="http://funnyfalloutscrolls.co/"><img src="http://31.media.tumblr.com/avatar_1d651728310d_40.png" /></a><a href="http://heyfunniest.com/"><img src="http://33.media.tumblr.com/avatar_32ab20bbe0ed_40.png" /></a><a href="http://stream.pleated-jeans.com/"><img src="http://38.media.tumblr.com/avatar_9ca1e3369b41_40.png" /></a><a href="http://piecomic.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_9434c5ba2e46_40.png" /></a><a href="http://amjayes.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_599f91198ff8_40.png" /></a><a href="http://pdlcomics.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_04abc4c0df93_40.png" /></a><a href="http://tumblr.thegentlemansarmchair.com/"><img src="http://38.media.tumblr.com/avatar_8d4039095703_40.png" /></a><a href="http://oursuperadventure.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_cd3be12d7e18_40.png" /></a><a href="http://gunsngear.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_291342cf331a_40.png" /></a><a href="http://archerquotes.tumblr.com/"><img src="http://31.media.tumblr.com/avatar_637bb8567eaf_40.png" /></a><a href="http://asliceofjuly.tumblr.com/"><img src="http://31.media.tumblr.com/avatar_fe76c527683f_40.png" /></a><a href="http://frogmemeconnoisseur.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_d08c2c33091c_40.png" /></a><a href="http://thebluthcompany.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_ce89505d5dd9_40.png" /></a><a href="http://sarahcandersen.com/"><img src="http://33.media.tumblr.com/avatar_14b1e4cef32a_40.png" /></a><a href="http://dailyjimpam.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_64bbaa5e20b4_40.png" /></a><a href="http://rodddles.tumblr.com/"><img src="http://31.media.tumblr.com/avatar_c71edfe3846b_40.png" /></a><a href="http://totallynotapornblog.tumblr.com/"><img src="http://assets.tumblr.com/images/default_avatar_40.png" /></a><a href="http://zeropercentdiscountcomic.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_26447c7fddae_40.png" /></a><a href="http://nsfw.tastefullyoffensive.com/"><img src="http://33.media.tumblr.com/avatar_3da225cd3708_40.png" /></a><a href="http://theflyinggooch.tumblr.com/"><img src="http://31.media.tumblr.com/avatar_fcc27ca08411_40.png" /></a><a href="http://arrestedwesteros.com/"><img src="http://38.media.tumblr.com/avatar_c1abc660862c_40.png" /></a><a href="http://atlas-thugged.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_a8ced335eef4_40.png" /></a><a href="http://workaholics.tumblr.com/"><img src="http://31.media.tumblr.com/avatar_c12bd5d5d001_40.png" /></a><a href="http://beautifullyengineered.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_38720bf9f04a_40.png" /></a><a href="http://eatmorebikes.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_cec3c0d99e38_40.png" /></a><a href="http://threewordphrase.tumblr.com/"><img src="http://31.media.tumblr.com/avatar_6ce58ac290b6_40.png" /></a><a href="http://www.microaggressions.com/"><img src="http://33.media.tumblr.com/avatar_92b37b408280_40.png" /></a><a href="http://screencapsfromscranton.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_4cb12304e65c_40.png" /></a><a href="http://pornhubcommentsonvalentines.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_271c66c50e70_40.png" /></a><a href="http://pornhubcommentsonstockphotos.tumblr.com/"><img src="http://31.media.tumblr.com/avatar_6d6a308b59a1_40.png" /></a><a href="http://onlybloodypeepshow.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_a2bb524aa344_40.png" /></a><a href="http://psychusa.tumblr.com/"><img src="http://31.media.tumblr.com/avatar_2f1ee52eec23_40.png" /></a><a href="http://us-office.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_2951a1dcf0b6_40.png" /></a><a href="http://futurama-quote.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_bacb1c3eac75_40.png" /></a><a href="http://fuck-yeah-futurama.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_29fc7b7275c2_40.png" /></a><a href="http://uncleblazer.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_794a1891253e_40.png" /></a><a href="http://skyrimgonewrong.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_541c793ed838_40.png" /></a><a href="http://breaking-development.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_6852b885ee4c_40.png" /></a><a href="http://malcominthemiddlelife.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_4b7567efe740_40.png" /></a><a href="http://titpfactchecker.tumblr.com/"><img src="http://assets.tumblr.com/images/default_avatar/pyramid_open_40.png" /></a><a href="http://shitiloldat.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_3f1a5ef6509e_40.png" /></a><a href="http://ticklepits.tumblr.com/"><img src="http://31.media.tumblr.com/avatar_5d433a304322_40.png" /></a><a href="http://thewindbear.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_372d27e9113c_40.png" /></a><a href="http://dragonbornproblems.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_f16757c38e72_40.png" /></a><a href="http://fuckyesitsalwayssunny.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_aad880d514f3_40.png" /></a><a href="http://breakinggifs.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_795fda81f3c6_40.png" /></a><a href="http://heisenlolz.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_dd5ec865c576_40.png" /></a><a href="http://adamdemamp.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_36c346e34e62_40.png" /></a>
+                        </div>
+                    
+                
+                
+                <div id="buttons">
+                    <div class="row">
+                        <div class="button" id="button-rss"><a href="http://otarsface.tumblr.com/rss">RSS feed</a></div>
+                        <div class="button" id="button-random"><a href="/random">Random</a></div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="row">
+                        <div class="button" id="button-archive"><a href="/archive">Archive</a></div>
+                        <div class="button" id="button-mobile"><a href="/mobile">Mobile</a></div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                
+            </div>
+            
+            <div id="bottom"></div>
+            <div id="copyright">&copy; 2012–2015 <a href="http://www.tumblr.com">Powered by Tumblr</a></div>
+        </div>
+        
+        <div class="clear"></div>
+    </div>
+    
+    
+    
+    
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+        var addthis_enabled = false;
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    postATMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    postATMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?f65f173ecd0610e1ad2f9930f8476598#" + 
+                              "http://otarsface.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/page/40?route=%2Fpage%2F%3Apage'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+        function postATMessage() {
+            if (addthis_enabled && analytics_iframe_loaded) {
+                analytics_frame.contentWindow.postMessage('enable_addthis', analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1438047646&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvb3RhcnNmYWNlLnR1bWJsci5jb21cL3BhZ2VcLzQwIiwicmVxdHlwZSI6MCwicm91dGUiOiJcL3BhZ2VcLzpwYWdlIn0=&U=BHADNJHICK&K=c6d0bfbc5acf51a6c206e69c4bc6a5f614f83d425239aefe40640cba8aa0e3b4&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1438047646&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvb3RhcnNmYWNlLnR1bWJsci5jb21cL3BhZ2VcLzQwIiwicmVxdHlwZSI6MCwicm91dGUiOiJcL3BhZ2VcLzpwYWdlIiwibm9zY3JpcHQiOjF9&U=BHADNJHICK&K=ca5476e4e39c39f41633deff560fc7b38e3e5d9a6fed9a8d114e69db95e43f84&R="></noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                                if (d.getElementById('tumblr-cdx')) {
+                    return;
+                }
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.js?_v=fee584537390c0b6a994bdf433a12f90';
+                s.type = 'text/javascript';
+                s.id = 'tumblr-cdx';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1438047646&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL290YXJzZmFjZS50dW1ibHIuY29tXC9wYWdlXC80MCIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC9wYWdlXC86cGFnZSIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6IjMyMzAyMDk2Iiwicm9vdF9wb3N0aWQiOiI5MjI3NTcyNzE0NCIsInBvc3RpZCI6IjkyMzQ3MjQ4NTczIiwiYmxvZ2lkIjoiNDU5OTg1ODAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNzA0MjAyNTciLCJyb290X3Bvc3RpZCI6Ijc5MTI3ODAwNjc4IiwicG9zdGlkIjoiOTIzNDcyMTM5MjMiLCJibG9naWQiOiI0NTk5ODU4MCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI0NjM1ODA2NCIsInJvb3RfcG9zdGlkIjoiNzk0MTgxMDA3ODciLCJwb3N0aWQiOiI5MjM0NzE0MzE5OCIsImJsb2dpZCI6IjQ1OTk4NTgwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjQxNzc1NDA1Iiwicm9vdF9wb3N0aWQiOiI4MTk5NTczMzkzMyIsInBvc3RpZCI6IjkyMzQ3MDgxNDEzIiwiYmxvZ2lkIjoiNDU5OTg1ODAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODE4NDgyNiIsInJvb3RfcG9zdGlkIjoiODI5OTAyNDA4NTAiLCJwb3N0aWQiOiI5MjM0NzA3MzYwMyIsImJsb2dpZCI6IjQ1OTk4NTgwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjkxMDk0MzkiLCJyb290X3Bvc3RpZCI6IjkyMzQ1MjYxMDEzIiwicG9zdGlkIjoiOTIzNDY5NTU1MTgiLCJibG9naWQiOiI0NTk5ODU4MCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyODEzMjM1Iiwicm9vdF9wb3N0aWQiOjQ5MTE5NTI5NTY4LCJwb3N0aWQiOiI5MjI5MzM5MDc1OCIsImJsb2dpZCI6IjQ1OTk4NTgwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjgxMzc4OTEiLCJyb290X3Bvc3RpZCI6Ijc2OTEyNDA4ODM5IiwicG9zdGlkIjoiOTIyOTMyMjI3NTMiLCJibG9naWQiOiI0NTk5ODU4MCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI5MTA5NDM5Iiwicm9vdF9wb3N0aWQiOiI5MjE3MTkzNzk2OCIsInBvc3RpZCI6IjkyMTc5NjQ4ODk4IiwiYmxvZ2lkIjoiNDU5OTg1ODAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODc5MDg2MTciLCJyb290X3Bvc3RpZCI6IjczMDMzNjQ1MTM5IiwicG9zdGlkIjoiOTIwOTk4NjQ5NzgiLCJibG9naWQiOiI0NTk5ODU4MCIsInNvdXJjZSI6MzN9XX0=&U=KPNAOKBGNN&K=9d62470a0eb0ab9481350c00cf46912a289da948ed06861baf8ffc3a3692bb1b&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1438047646&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL290YXJzZmFjZS50dW1ibHIuY29tXC9wYWdlXC80MCIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC9wYWdlXC86cGFnZSIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6IjMyMzAyMDk2Iiwicm9vdF9wb3N0aWQiOiI5MjI3NTcyNzE0NCIsInBvc3RpZCI6IjkyMzQ3MjQ4NTczIiwiYmxvZ2lkIjoiNDU5OTg1ODAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNzA0MjAyNTciLCJyb290X3Bvc3RpZCI6Ijc5MTI3ODAwNjc4IiwicG9zdGlkIjoiOTIzNDcyMTM5MjMiLCJibG9naWQiOiI0NTk5ODU4MCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI0NjM1ODA2NCIsInJvb3RfcG9zdGlkIjoiNzk0MTgxMDA3ODciLCJwb3N0aWQiOiI5MjM0NzE0MzE5OCIsImJsb2dpZCI6IjQ1OTk4NTgwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjQxNzc1NDA1Iiwicm9vdF9wb3N0aWQiOiI4MTk5NTczMzkzMyIsInBvc3RpZCI6IjkyMzQ3MDgxNDEzIiwiYmxvZ2lkIjoiNDU5OTg1ODAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODE4NDgyNiIsInJvb3RfcG9zdGlkIjoiODI5OTAyNDA4NTAiLCJwb3N0aWQiOiI5MjM0NzA3MzYwMyIsImJsb2dpZCI6IjQ1OTk4NTgwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjkxMDk0MzkiLCJyb290X3Bvc3RpZCI6IjkyMzQ1MjYxMDEzIiwicG9zdGlkIjoiOTIzNDY5NTU1MTgiLCJibG9naWQiOiI0NTk5ODU4MCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyODEzMjM1Iiwicm9vdF9wb3N0aWQiOjQ5MTE5NTI5NTY4LCJwb3N0aWQiOiI5MjI5MzM5MDc1OCIsImJsb2dpZCI6IjQ1OTk4NTgwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjgxMzc4OTEiLCJyb290X3Bvc3RpZCI6Ijc2OTEyNDA4ODM5IiwicG9zdGlkIjoiOTIyOTMyMjI3NTMiLCJibG9naWQiOiI0NTk5ODU4MCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI5MTA5NDM5Iiwicm9vdF9wb3N0aWQiOiI5MjE3MTkzNzk2OCIsInBvc3RpZCI6IjkyMTc5NjQ4ODk4IiwiYmxvZ2lkIjoiNDU5OTg1ODAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODc5MDg2MTciLCJyb290X3Bvc3RpZCI6IjczMDMzNjQ1MTM5IiwicG9zdGlkIjoiOTIwOTk4NjQ5NzgiLCJibG9naWQiOiI0NTk5ODU4MCIsInNvdXJjZSI6MzN9XSwibm9zY3JpcHQiOjF9&U=KPNAOKBGNN&K=582effd2c1b00ce39df6c49b6db71d7222804f8c52e387c27a4ac342c1cc697a&R="></noscript><script src="http://assets.tumblr.com/assets/scripts/vendor/yahoo/rapid-3.29.js?_v=eba0b54ceda4a58e0c1ee32920e5bc09"></script>
+<script src="http://assets.tumblr.com/assets/scripts/vendor/yahoo/rapidworker-1.2.js?_v=2c11d5915df4de9216a0aae5988fad84"></script>
+<script>
+            (function() {
+                var YAHOO = window.YAHOO;
+                if (YAHOO) {
+                    var keys = {
+                        pd:'/page/:page',
+                        _li:0,
+                        b_id:45998580,
+                        i_rad:0,
+                        i_strm:0,
+                        test_id:'OTHER,Tumblr',
+                        anon_id:''
+                    };
+                    var conf = {
+                        webworker_file:'/assets/scripts/vendor/yahoo/rapid-web-worker-1.2.js',
+                                                spaceid:1197716038,
+                        client_only:1,
+                        test_id:'OTHER,Tumblr',
+                        keys:keys,
+                        nol:1,
+                        fpc:true
+                    };
+                    YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                }
+            })();
+        </script><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                                if (d.getElementById('tumblr-cdx')) {
+                    return;
+                }
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.js?_v=fee584537390c0b6a994bdf433a12f90';
+                s.type = 'text/javascript';
+                s.id = 'tumblr-cdx';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=828cdb2a87ea97153f8095b34611c6ae#src=http%3A%2F%2Fotarsface.tumblr.com%2Fpage%2F40&amp;lang=en_US&amp;name=otarsface&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_724fea60003b_64.png&amp;title=Titled&amp;url=http%3A%2F%2Fotarsface.tumblr.com%2F&amp;page_slide=slide"></iframe>
+<div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="http://assets.tumblr.com/assets/html/iframe/teaser.html?_v=bf4a4223d82293dacd7ce191f926bbba#src=http%3A%2F%2Fotarsface.tumblr.com%2Fpage%2F40&amp;lang=en_US&amp;name=otarsface&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_724fea60003b_64.png&amp;title=Titled&amp;url=http%3A%2F%2Fotarsface.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 40;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=34a306079bdf269adcaf3b7ffd0425dd");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>
