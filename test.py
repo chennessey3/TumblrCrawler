@@ -1,4 +1,3 @@
-import codecs
 import os
 __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
 
@@ -6,37 +5,71 @@ import requests
 import shutil
 import re
 
-#view the page source:
-url = 'http://otarsface.tumblr.com/page/40'
-r = requests.get(url)
-#print r.text
+#DEFINE THE FUNCTIONS WE NEED
 
-#print (r.text[10])
-#print r.encoding
-
-count = 0    
-fid = codecs.open(os.path.join(__location__, 'output.log'), "w","utf-8-sig" )
+def get_image_type(url):
+    if '.png' in url:
+        filetype = '.png'
+    elif '.jpg' in url:
+        filetype = '.jpg'
+    elif '.gif' in url:
+        filetype = '.gif'            
+    else:
+        print "unknown file type"
+        filetype = '.ERROR'   
         
-for line in (''.join(r.text)).splitlines():
-    if '''<div class="media">''' in line:
-        url_list = re.findall('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', str(line))
-        if  len(url_list) != 0:
-            for url in url_list:
-                if "media" in url:
-                    fid.write(str(url) + "\n") 
-fid.close()        
-print "number of images on page:", count
+    return filetype
+        
+
+def get_image_urls(page_url):
+    r = requests.get(page_url)
+    url_list = [] #contains just pics
+    for line in (''.join(r.text)).splitlines():
+        if '''<div class="media">''' in line:
+            dirty_url_list = re.findall('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', str(line)) #contains pics + blogs
+            if  len(dirty_url_list) != 0:
+                for url in dirty_url_list:
+                    if "media" in url:
+                        url_list.append(str(url)) 
+    return url_list
 
 #Download the actual picuture:
-url = 'http://41.media.tumblr.com/b006df86635b43d695e748bc99462eca/tumblr_nru6mcrkOp1sfxd21o1_500.png'
-filename = os.path.join(__location__, 'test_image2.png')
-response = requests.get(url, stream=True)
-with open(filename, 'wb') as out_file:
-    shutil.copyfileobj(response.raw, out_file)
-print response.status_code
+def get_image(url,filename): #get_image(string for url, string for filename on local computer)
+    response = requests.get(url, stream=True)
+    with open(filename, 'wb') as out_file:
+        shutil.copyfileobj(response.raw, out_file)    
+    del response
+    return
+    
+#url = 'http://36.media.tumblr.com/ef10cb3dc022c1a0f6e6e361c2d33cf5/tumblr_noj473Sgbo1sn75h6o1_500.jpg'
+#filename = os.path.join(__location__, 'test_image3.png')    
+#get_image(url,filename)
 
-del response
+#BEGIN THE ACTUAL PROGRAM:
+
+base_url = 'http://otarsface.tumblr.com/' #link to your tumblr blog
+num_pages = 10 #number of pages to get images from
+
+picture_urls = [] #list of all picture URLs to download
+
+#Find the links to the pictures we want to download:
+print "Find the links to the pictures"
+
+for page_num in range(1,num_pages+1):
+    page_url = base_url + "page/" + str(page_num)
+#    print page_url
+    r = requests.get(page_url)
+#    print r.encoding
+#    print r.status_code
+    picture_urls.extend(get_image_urls(page_url))
 
 
+#Download the pictures:  
+print "Begin download of pictures"   
+   
+for indx, url in enumerate(picture_urls):
+    filename = os.path.join(__location__, ("test_image" + str(indx) + get_image_type(url)))
+#    print filename 
+    get_image(url,filename)
 
-
+print "Download complete"   
