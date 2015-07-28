@@ -43,8 +43,9 @@ Temporary Items
 .apdisk
 
 
-#Conors Added Files:
-.log
-.png
-.gif
-.jpg
+# Conors Added Files
+*.log
+*.png
+*.gif
+*.jpg
+*.txt
