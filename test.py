@@ -4,6 +4,7 @@ __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file
 import requests
 import shutil
 import re
+import sys
 
 #DEFINE THE FUNCTIONS WE NEED
 
@@ -48,7 +49,7 @@ def get_image(url,filename): #get_image(string for url, string for filename on l
 #BEGIN THE ACTUAL PROGRAM:
 
 base_url = 'http://otarsface.tumblr.com/' #link to your tumblr blog
-num_pages = 10 #number of pages to get images from
+num_pages = 20 #number of pages to get images from
 
 picture_urls = [] #list of all picture URLs to download
 
@@ -71,5 +72,8 @@ for indx, url in enumerate(picture_urls):
     filename = os.path.join(__location__, ("test_image" + str(indx) + get_image_type(url)))
 #    print filename 
     get_image(url,filename)
+    sys.stdout.write('\r')
+    sys.stdout.write("[%-20s] %d%%" % ('='*indx, 5*indx))
+    sys.stdout.flush()
 
-print "Download complete"   
+print "\nDownload complete"   
