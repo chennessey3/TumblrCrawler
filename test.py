@@ -8,18 +8,37 @@ import shutil
 import re
 import sys
 
+#Prevent protocol errors when accessing likes page:
+#import ssl
+#from functools import wraps
+#def sslwrap(func):
+#    @wraps(func)
+#    def bar(*args, **kw):
+#        kw['ssl_version'] = ssl.PROTOCOL_TLSv1
+#        return func(*args, **kw)
+#    return bar
+#ssl.wrap_socket = sslwrap(ssl.wrap_socket)
+
 #DEFINE THE FUNCTIONS WE NEED
 
-def enlarge_tumblr_pic(archive_url):
-    if (requests.get(archive_url.replace('_250','_1280',1))).status_code < 400:
-        new_url = archive_url.replace('_250','_1280',1)
-    elif (requests.get(archive_url.replace('_250','_500',1))).status_code < 400:
-        new_url = archive_url.replace('_250','_500',1)
-    else:
-       new_url =   archive_url   
+def enlarge_tumblr_pic(archive_url, size):
+    if size is 'large' or 'L':
+        if (requests.get(archive_url.replace('_250','_1280',1))).status_code < 400:
+            new_url = archive_url.replace('_250','_1280',1)
+        elif (requests.get(archive_url.replace('_250','_500',1))).status_code < 400:
+            new_url = archive_url.replace('_250','_500',1)
+        else:
+            new_url =   archive_url 
+    elif size is 'medium' or 'M':
+        if (requests.get(archive_url.replace('_250','_500',1))).status_code < 400:
+            new_url = archive_url.replace('_250','_500',1)
+        else:
+            new_url =   archive_url 
+    elif size is 'small' or 'S':
+        new_url =   archive_url                 
     return new_url
 
-enlarge_tumblr_pic('http://38.media.tumblr.com/a68e4902b439b8f7e4add5be9091387f/tumblr_mqjz0tj6w21qdlh1io1_250.gif')
+enlarge_tumblr_pic('http://38.media.tumblr.com/a68e4902b439b8f7e4add5be9091387f/tumblr_mqjz0tj6w21qdlh1io1_250.gif',"L")
 
 #Figure out what kind of image file the url links to
 def get_image_type(url):
@@ -69,9 +88,7 @@ def get_image(url,filename): #get_image(string for url, string for filename on l
     del response
     return
     
-#url = 'http://36.media.tumblr.com/ef10cb3dc022c1a0f6e6e361c2d33cf5/tumblr_noj473Sgbo1sn75h6o1_500.jpg'
-#filename = os.path.join(__location__, 'test_image3.png')    
-#get_image(url,filename)
+
 
 #BEGIN THE ACTUAL PROGRAM:
 
@@ -85,11 +102,10 @@ print "Find the links to the pictures"
 import datetime
 current_month = int(datetime.date.today().strftime("%m"))
 current_year = int(datetime.date.today().strftime("%Y"))
-print current_month,current_year
 page_has_posts = True
-month_counter,year_counter = 0,0
 month,year = current_month,current_year
 
+#Search the archive
 while page_has_posts:
 
     print month, year
@@ -100,7 +116,7 @@ while page_has_posts:
 
 #    page_has_posts = month_has_posts(page_url)
     
-    picture_urls.extend(get_image_urls(page_url))    
+#    picture_urls.extend(get_image_urls(page_url)) #get the actual image links   
     
     month = month - 1
     
@@ -112,24 +128,56 @@ while page_has_posts:
     if month < 7 or year < 2008:
         break
 
+#Search the liked posts within chrome rendered source:
+print "begin scanning likes source"
+url_list = []
+with open(os.path.join(__location__,"draft_source.txt"),"r") as file:
+    for line in file:
+        if '''.media.tumblr.com''' in line:
+            try:
+                dirty_url_list = re.findall('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', str(line)) #contains pics + blogs
+                if  len(dirty_url_list) != 0:
+                    for url in dirty_url_list:
+                        if '''media.tumblr.com''' in url and '''avatar''' not in url:
+                            url = url.replace("'","",1)
+                            url = url.replace(")","",1)
+                            url_list.append(str(url)) 
+            except UnicodeEncodeError:
+                print "Fix the fucking Unicode error"        
+picture_urls.extend(url_list) #get the actual image links 
+
+picture_urls = list(set(picture_urls)) #uniqueafy the picture urls
+
+print len(picture_urls)
+
+with open(os.path.join(__location__,"image_links.txt"),"w") as file:
+    for url in picture_urls:
+        file.write(str(enlarge_tumblr_pic(url,"L"))+"\n")
+
+sys.exit(0)
 
 #Download the pictures:  
-print "Begin download of pictures"   
-   
+print "Begin download of",len(picture_urls)+1,"pictures"   
+download_size = 0 #bytes   
+indx = 0   
+
 for indx, url in enumerate(picture_urls):
     filename = os.path.join(__location__, ("test_image" + str(indx) + get_image_type(url)))
 #    print filename 
-    get_image(url,filename)
+#    get_image(enlarge_tumblr_pic(url,"L"),filename)
 #    print int((indx/float(len(picture_urls)))*100)
     sys.stdout.write('\r')
 #    sys.stdout.write("[%-20s] %d%%" % ('='*(int(indx/len(picture_urls))*20), int((indx/len(picture_urls)*100))))
 #    sys.stdout.write("[%-100s] %d%%" % ('='*int(100*(indx/len(picture_urls))), (indx/len(picture_urls))*100))
     sys.stdout.write("%d%% complete" % (int((indx/float(len(picture_urls)))*100)))
     sys.stdout.flush()
+#    download_size = download_size + os.path.getsize(filename) #bytes
 
-print "\nDownload of",indx,"images complete"   
+if indx > 0:
+    print "\nDownload of",indx+1,"images complete"   
+    print "Total Size:",(download_size/1000000),"mb"
+    print "Average Size:",(download_size/float(indx))/1000,"kb"
+else:
+    print "no pics downloaded"
 
-with open(os.path.join(__location__,"image_links.txt"),"w") as file:
-    for url in picture_urls:
-        file.write(str(enlarge_tumblr_pic(url))+"\n")
     
